@@ -18,8 +18,8 @@ var Styles = require('./routes/Styles');
 // Using Routes in App
 app.get('/', (req, res) => {
 	res.json({
-		data: 'The Server is Working';
-	})
+		data: 'The Server is Working',
+	});
 })
 app.use('/users', Users);
 app.use('/userapi', Userapi);
